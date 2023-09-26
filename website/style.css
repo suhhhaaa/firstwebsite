@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto, sans-serif' ;
+}
+
+.bg-image .header {
+    background-image: url("https://ik.imagekit.io/vope2hq1w/download.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673240972843");
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height:12%;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(14, 9, 9);
+    font-size: 20px;
+
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(150, 70, 33);
+    font-size: 80px;    
+}
+p{
+    color: rgb(22, 29, 20);
+    font-size: 20px;
+    line-height: 15px;
+}
+button{
+    width: 100px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/b2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673370201042);
+}
+.card2{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/p.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673368924056);
+}
+.card3{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/b1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673240785302);
+}
+.card4{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Picsart_22-09-06_22-58-53-503.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673370398446);
+}
+.card5{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/b3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673370225631);
+}
+.card6{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20221213-173443_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673263888700);
+}
+.card7{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20221213-173526_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673370465786);
+}
+.card8{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20221213-173513_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673370482886);
+}
+.card9{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20230110-224826_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673372708951);
+}
+.card10{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20230110-224814_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673372747813);
+}
+.card11{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20230110-224758_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673372728886);
+}
+.card12{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Screenshot_20230110-224838_Instagram.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673371684312);
+}
+.card13{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/20230109_010342.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673374858089);
+}
+.card14{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Snapchat-2003249183.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673374438528);
+}
+.card15{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/20230109_005648.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673374843878);
+}
+.card16{
+    background-image: url(https://ik.imagekit.io/vope2hq1w/Snapchat-1222560241.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673374707690);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
